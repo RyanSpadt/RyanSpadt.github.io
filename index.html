@@ -10,13 +10,187 @@
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="style.css">
 
-		<title>Hello World</title>
+		<title>CS 499 Capstone ePortfolio - Spadt</title>
 	</head>
-	<body>
+	<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0">
 
-		<div class="container-fluid text-center">
-			<h1>Hello World</h1>
-		</div>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand fw-bold" href="#banner">CS 499 ePortfolio</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item"><a class="nav-link" href="#license">License</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="#original-artifact">Original Artifact</a></li>
+						<li class="nav-item"><a class="nav-link" href="#code-review">Code Review</a></li>
+						<li class="nav-item"><a class="nav-link" href="#enhancement-one">Enhancement One</a></li>
+						<li class="nav-item"><a class="nav-link" href="#enhancement-two">Enhancement Two</a></li>
+						<li class="nav-item"><a class="nav-link" href="#enhancement-three">Enhancement Three</a></li>
+						<li class="nav-item"><a class="nav-link" href="#self-assessment">Self Assessment</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Banner Section -->
+		<section id="banner">
+			<header class="bg-light py-5">
+				<div class="container text-center">
+					<h1 class="display-4 fw-bold">CS 499 Capstone ePortfolio</h1>
+					<p class="lead">Authored by Ryan Spadt</p>
+				</div>
+			</header>
+		</section>
+
+
+		<!-- License Section -->
+		<section class="py-5 bg-white" id="license">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">License</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<p class="lead mb-3">&copy; 2025 Ryan Spadt. All rights reserved.</p>
+					<p>This code is proprietary and confidential.</p>
+					<p>No permission is granted to use, copy, modify, or distribute this software in any form without explicit written consent from the author.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section class="py-5 bg-white" id="about">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">About</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<blockquote class="blockquote">
+						<p>Hello, my name is Ryan Spadt and I am the author of this ePortfolio. This ePortfolio was completed to fulfill my CS 499 Computer Science Capstone at Southern New Hampshire University. This capstone project is a culmination of my learning experience at Southern New Hampshire University. This culmination of this learned experience is realized through improving a single artifact with three planned enhancements.</p>
+						<p>The specific skills I aim to demonstrate through these enhancements are my ability to architect and deliver a production-ready application that could realistically be used by end users. I will demonstrate the following skills:</p>
+						<ul>
+							<li>Clean and maintainable code that adheres to best practices and would not hamper future enhancements or team development efforts.</li>
+							<li>Legacy environment modernization by migration to newer technologies or more appropriate languages/frameworks.</li>
+							<li>Algorithmic proficiency by implementing data structures and algorithms improvements</li>
+							<li>Database design, management, and integration by improvements made to already existing database application.</li>
+						</ul>
+						<footer class="blockquote-footer">Spadt, Ryan. “CS 499 Module One Assignment.” CS 499 Module One Assignment, 01 Nov. 2025. Accessed 08 Dec. 2025.</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<!-- Original Artifact -->
+		<section class="py-5 bg-white" id="original-artifact">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">Original Artifact</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<blockquote class="blockquote">
+						<p>The artifact selected for all three enhancements was a mobile application created in CS 360 last term. We were given an option to create one of three application concepts. I elected to create a weight tracking mobile application. This application was created using Java to run an Android mobile application. That would allow a user to sign in or register an account. Once they are logged in they would be able to set a weight goal and input weight entries on a daily basis to track their progress towards that goal. The application also supported the ability to send SMS messages to the user when they accomplished their goal based on the setting inside of the application and phone permissions.</p>
+						<p>I selected this artifact because I found making mobile applications challenging, exciting, and rewarding. It’s something I’d actually like to do in my free time after I have graduated from SNHU. I also have been tracking my weight in a similar fashion inside of a Google Sheets spreadsheet and thought this would be a perfect opportunity to create something I could use. If I wanted to use this application I would need to write it for iOS and found Kotlin Multiplatform Mobile. So I wanted to learn Kotlin Multiplatform Mobile anyway. And with the enhancement requirements I thought it aligned perfectly to migrate it from Java (Android-only) to KMM and have support for Android and iOS.</p>
+						<footer class="blockquote-footer">Spadt, Ryan. “CS 499 Narrative for Milestone Two.” CS 499 Narrative for Milestone Two, 15 Nov. 2025. Accessed 08 Dec. 2025.</footer>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<!-- Code Review Section -->
+		<section class="py-5 bg-white" id="code-review">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">Code Review</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<p>A Code Review was performed on the original artifact. In this code review, the original artifact was analyzed for weaknesses, limitations, and vulnerabilities. Additionally, the code review documents the original artifact's functionality and the three planned enhancements.</p>
+					<div class="col-sm-11">
+						<div class="ratio ratio-16x9 border border-primary rounded shadow-lg p-3">
+					      <video controls>
+					        <source src="Original Artifact/CS 499 Code Review Spadt.mp4" type="video/mp4">
+					        Your browser does not support this video.
+					      </video>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Enhancement One -->
+		<section class="py-5 bg-white" id="enhancement-one">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">Enhancement One: Software Design and Engineering</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<p>Enhancement One is a demonstration of skill in software design and engineering. In this enhancement, the original artifact, a Java Android Application project, was migrated to Kotlin Multiplatform Mobile with its existing functionality intact. While also being able to operate on both Android and iOS devices. In addition to this migration, technologies that best aligned with the philosophy and structure of shared modules was used. With Jetpack Compose being used to facilitate the creation of UI on both platforms with the same unified code. As well as, SQLDelight providing the same code and structure for both platforms on local database solution.</p>
+					<div class="col-sm-11">
+						<embed src="Enhancement One/CS 499 Milestone Two Narrative - Spadt.pdf" type="application/pdf" width="100%" height="600">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Enhancement Two -->
+		<section class="py-5 bg-white" id="enhancement-two">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">Enhancement Two: Algorithms and Data Structure</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<p>Enhancement Two is a demonstration of skill in algorithms and data structure. In this enhancement, the same artifact from enhancement one was improved upon. In this enhancement, the artifact was improved by using algorithms like linear regression, outlier detection using MAD-based Z-score, exponential smoothing for forecasting, and confidence scoring for goal estimation. The mobile application was improved from a passive weight tracking application to an applicaiton able to analyze data and provide dynamic insights. In addition to formulas and new data structures being improved in this enhancement, there were a significant number of UI enhancements. These UI enhancements were made both visually available for the end user, as well as, the maintainability of the code.</p>
+					<div class="col-sm-11">
+						<embed src="Enhancement Two/CS 499 Milestone Three Narrative - Spadt.pdf" type="application/pdf" width="100%" height="600">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Enhancement Three -->
+		<section class="py-5 bg-white" id="enhancement-three">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">Enhancement Three: Databases</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<p>Enhancement Three is a demonstration of skill in databases. In this enhancement, the same artifact from enhancements one and two was improved upon. In this enhancement, the database solution was improved upon using ktor. Creating a server-sided solution paired with the client application and REST API endpoints to enable data transfer over network. The server sided PostgreSQL database was also configured to sync data to and from the local SQLDelight database on the client device. Additionally, authentication was improved from a client-sided transaction to being orchestrated by the server-side. With paswords no longer being stored on the device, but rather in the server and hashed using Argon2id. Authentication was used to create JWT-Based protection on protected routes. Finally, Exposed was used for type-safe DSL and lightweight ORM for accessing the PostgreSQL database.</p>
+					<div class="col-sm-11">
+						<embed src="Enhancement Three/CS 499 Milestone Four Narrative - Spadt.pdf" type="application/pdf" width="100%" height="600">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Professional Self Assessment -->
+		<section class="py-5 bg-white" id="self-assessment">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">Professional Self Assessment</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<p>Lorem epsum</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- References -->
+		<section class="py-5 bg-white" id="references">
+			<div class="container">
+				<h2 class="fw-bold mb-3 text-start">References</h2>
+				<hr class="section-divider">
+				<div class="row justify-content-center">
+					<ul>
+						<li>Spadt, Ryan. “CS 499 Narrative for Milestone Two.” CS 499 Narrative for Milestone Two, 15 Nov. 2025. Accessed 08 Dec. 2025.</li>
+						<li>Spadt, Ryan. “CS 499 Narrative for Milestone Three.” CS 499 Narrative for Milestone Three, 22 Nov. 2025. Accessed 08 Dec. 2025.</li>
+						<li>Spadt, Ryan. “CS 499 Narrative for Milestone Four.” CS 499 Narrative for Milestone Four, 28 Nov. 2025. Accessed 08 Dec. 2025.</li>
+						<li>Spadt, Ryan. “CS 499 Module One Assignment.” CS 499 Module One Assignment, 01 Nov. 2025. Accessed 08 Dec. 2025.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-dark text-white text-center py-3 mt-5">
+			<div class="container">
+				<small>&copy; 2025 Ryan Spadt. All rights reserved.</small>
+			</div>
+		</footer>
 
 		<!-- Bootstrap Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

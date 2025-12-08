@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miDatabase"
+        android:title="Database"
+        android:icon="@drawable/ic_database"/>
+    <item
+        android:id="@+id/miSMS"
+        android:title="SMS"
+        android:icon="@drawable/ic_sms"/>
+
+</menu>

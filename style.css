@@ -1,0 +1,11 @@
+body {
+	position: relative;
+	padding-top: 50px;
+	scroll-behavior: smooth;
+}
+
+.section-divider {
+	width: 25%;
+	border-top: 2px solid #36454F;
+	margin-bottom: 1.5rem;
+}
